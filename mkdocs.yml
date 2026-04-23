@@ -16,9 +16,9 @@ theme:
   palette:
     primary: red
     scheme: default
-  plugins:
-    - search
-    - awesome-pages
+plugins:
+  - search
+  - awesome-pages
 
 
 markdown_extensions:
