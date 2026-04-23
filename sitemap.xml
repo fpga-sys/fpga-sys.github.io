@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://fpga-sys.github.io/</loc>
+         <lastmod>2026-04-23</lastmod>
+    </url>
+    <url>
+         <loc>https://fpga-sys.github.io/about/</loc>
+         <lastmod>2026-04-23</lastmod>
+    </url>
+    <url>
+         <loc>https://fpga-sys.github.io/ads/ads/</loc>
+         <lastmod>2026-04-23</lastmod>
+    </url>
+    <url>
+         <loc>https://fpga-sys.github.io/articles/articles/</loc>
+         <lastmod>2026-04-23</lastmod>
+    </url>
+    <url>
+         <loc>https://fpga-sys.github.io/news/news/</loc>
+         <lastmod>2026-04-23</lastmod>
+    </url>
+    <url>
+         <loc>https://fpga-sys.github.io/tutorials/tutorials/</loc>
+         <lastmod>2026-04-23</lastmod>
+    </url>
+    <url>
+         <loc>https://fpga-sys.github.io/tutorials/dsp_by_kapitanov/0_about/</loc>
+         <lastmod>2026-04-23</lastmod>
+    </url>
+    <url>
+         <loc>https://fpga-sys.github.io/tutorials/timings_by_vldshevtsev/timings1_intro/</loc>
+         <lastmod>2026-04-23</lastmod>
+    </url>
+</urlset>
