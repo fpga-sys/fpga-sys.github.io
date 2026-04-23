@@ -1,0 +1,37 @@
+site_name: FPGA-SYS
+
+theme:
+  name: material
+  features:
+    - navigation.tabs        # верхнее меню
+    - navigation.sections    # группировка в sidebar
+    - navigation.top         # кнопка "наверх"
+    - search.highlight
+    - content.code.copy
+    - header.autohide
+
+#  logo:
+#    assets/fs-logo-short.png
+  language: ru
+  palette:
+    primary: red
+    scheme: default
+  plugins:
+    - search
+    - awesome-pages
+
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
