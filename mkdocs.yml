@@ -1,5 +1,5 @@
 site_name: FPGA-SYS
-
+site_url: https://fpga-sys.github.io/
 theme:
   name: material
   features:
