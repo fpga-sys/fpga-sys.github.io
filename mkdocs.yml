@@ -6,21 +6,27 @@ theme:
     - navigation.tabs        # верхнее меню
     - navigation.sections    # группировка в sidebar
     - navigation.top         # кнопка "наверх"
-    - navigation.instant         # кнопка "наверх"
+ #   - navigation.instant         # кнопка "наверх"
     - search.highlight
     - content.code.copy
     - header.autohide
 
 #  logo:
 #    assets/fs-logo-short.png
-  language: ru
+ # language: ru
   palette:
     primary: red
     scheme: default
 plugins:
   - search
   - awesome-pages
-
+  - blogging:
+      dirs:
+        - tutorials
+        - articles
+      size: 3   # сколько последних показывать
+      paging: false
+      locale: ru
 
 markdown_extensions:
   - admonition
