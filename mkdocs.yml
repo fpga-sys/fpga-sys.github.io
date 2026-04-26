@@ -11,8 +11,8 @@ theme:
     - content.code.copy
     - header.autohide
 
-#  logo:
-#    assets/fs-logo-short.png
+  logo:
+    assets/fs-logo-short.png
  # language: ru
   palette:
     primary: red
@@ -25,7 +25,7 @@ plugins:
         - tutorials
         - articles
       size: 3   # сколько последних показывать
-      paging: false
+      paging: true
       locale: ru
 
 markdown_extensions:

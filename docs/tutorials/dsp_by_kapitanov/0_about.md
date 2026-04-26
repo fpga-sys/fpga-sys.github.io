@@ -1,3 +1,11 @@
+---
+title: ЦОС. О курсе
+date: 2024-03-29 
+categories:
+  - Zynq7000
+  - Vivado
+---
+
 # О курсе Digital signal processing
 
 Перед вами лекции по цифровой обработке сигналов (ЦОС) в виде тетрадок Jupyter Notebook на языке Python. Можно воспринимать их как полноценный курс по цифровой обработке или использовать как заметки по теоретическим аспектам и практическому применению в решении различных задач.
@@ -6,8 +14,9 @@
 
 
 Авторы
-Alexander Kapitanov, @hukenovs
-Vladimir Fadeev, @kirlf
-Karina Kvanchiani, @karinakvanchiani
-Elizaveta Petrova, @kleinsbotle
-Andrei Makhliarchuk, @anotherhelloworld
+
+- Alexander Kapitanov, @hukenovs
+- Vladimir Fadeev, @kirlf
+- Karina Kvanchiani, @karinakvanchiani
+- Elizaveta Petrova, @kleinsbotle
+- Andrei Makhliarchuk, @anotherhelloworld

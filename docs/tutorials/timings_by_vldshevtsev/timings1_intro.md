@@ -453,8 +453,6 @@ $T_{skew} = T_{dcd} - T_{scd} + T_{cp} = 2.003 - 1.486 - 0.502 = 0.015$
 Ссылки
 
 [^1]: https://www.xilinx.com/support/documentation/data_sheets/ds181_Artix_7_Data_Sheet.pdf
-
 [^2]: https://www.xilinx.com/support/documentation/sw_manuals/xilinx2020_2/ug903-vivado-using-constraints.pdf
-
 [^3]: https://www.xilinx.com/support/documentation/sw_manuals/xilinx2020_2/ug906-vivado-design-analysis.pdf
 
