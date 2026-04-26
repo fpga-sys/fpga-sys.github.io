@@ -513,7 +513,7 @@ set_input_delay -clock $input_clock -max [expr $tco_max + $trce_dly_max]
 set_input_delay -clock $input_clock -min [expr $tco_min + $trce_dly_min] 
 [get_ports $input_ports]
 ```
-В данном случае значение input_delay задается в виде суммы задержек `tco` ($T_{dco}$) и `trce_dly` ($T_{bd}), что соответствует уравнениям \(\ref{eq:5}\). Заметим также, что если пренебречь задержками тактового сигнала $T_{odd}$ и $T_{ofd}$, то оба представленных выше способа будут полностью эквивалентны.
+В данном случае значение input_delay задается в виде суммы задержек `tco` ($T_{dco}$) и `trce_dly` ($T_{bd}$), что соответствует уравнениям \(\ref{eq:5}\). Заметим также, что если пренебречь задержками тактового сигнала $T_{odd}$ и $T_{ofd}$, то оба представленных выше способа будут полностью эквивалентны.
 
 ## 7. Несовпадающие значения Slack
 В заключении рассмотрим следующий интересный момент. Можно увидеть, что значения Slack, представленные на рисунках 4 и 9, отличаются и равны 67.711 нс и 67.721 нс соответственно. Выясним из-за чего возникает разница в 0.01 нс. Рассмотрев временные отчеты, можно обнаружить, что причиной неодинаковых значений является неопределенность тактового сигнала (clock uncertainty).
@@ -543,10 +543,10 @@ $$
 Ссылки
 1. [Основы статического временного анализа. Часть 1: Period Constraint](timings1_intro.md)
 
-2. [Datasheet 74HC595](https://www.ti.com/lit/ds/symlink/sn74hc595.pdf?ts=1634484237568&ref_url=https%253A%252F%252Fwww.google.com%252F)
+2. [Datasheet 74HC595](https://www.ti.com/lit/ds/symlink/sn74hc595.pdf?ts=1634484237568&ref_url=https%253A//www.google.com/)
 
-3. [How to Calculate Trace Length from Time Delay Value for High-speed Signals](https:%252F%252Fwww.zuken.com%252Fen%252Fblog%252Fhow-to-calculate-trace-length-from-time-delay-value-for-high-speed-signals%252F.html)
+3. [How to Calculate Trace Length from Time Delay Value for High-speed Signals](https://www.zuken.com/en/blog/how-to-calculate-trace-length-from-time-delay-value-for-high-speed-signals/)
 
-4. [Using Constraints (UG 903)](https:%252F%252Fwww.xilinx.com%252Fsupport%252Fdocumentation%252Fsw_manuals%252Fxilinx2013_1%252Fug903-vivado-using-constraints.pdf)
+4. [Using Constraints (UG 903)](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2013_1/ug903-vivado-using-constraints.pdf)
 
-5. [Design Analysis and Closure Techniques (UG 906)](www.xilinx.com%252Fsupport%252Fdocumentation%252Fsw_manuals%252Fxilinx2017_3%252Fug906-vivado-design-analysis.pdf)
+5. [Design Analysis and Closure Techniques (UG 906)](https://www.xilinx.com/support/documentation/sw_manuals/xilinx2017_3/ug906-vivado-design-analysis.pdf)
