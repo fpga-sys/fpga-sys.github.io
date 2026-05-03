@@ -44,4 +44,12 @@ hide:
 
     [К началу](led_saga_by_sergebalakshiy/led_saga.md)
 
+-   **Demystifying Resets: перевод**
+
+    ---
+
+    Полезные заметки касательно сбросов в ПЛИС Xilinx
+
+    [К первой части](resets_translate_keins13/resets_part1.md)
+
 </div>
