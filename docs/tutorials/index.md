@@ -50,6 +50,14 @@ hide:
 
     Полезные заметки касательно сбросов в ПЛИС Xilinx
 
-    [К первой части](resets_translate_keins13/resets_part1.md)
+    [К первой части](resets_translate_keisn13/resets_part1.md)
+
+-   **Vivado Reports**
+
+    ---
+
+    Хорошие актуальные материалы по отчетам в Vivado от вождя сообщества
+
+    [К `report_clocks`](reports_by_keisn13/part1_report_clocks.md)
 
 </div>
