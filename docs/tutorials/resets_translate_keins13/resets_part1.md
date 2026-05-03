@@ -7,7 +7,7 @@ image: ./_pu/1/40421746.jpg
 author: KeisN13
 ---
 
-_Это перевод_
+_Это перевод заметки с форума Xilinx ([оригинал](https://adaptivesupport.amd.com/s/question/0D52E00006hpikKSAQ/demystifying-resets-synchronous-asynchronous-other-design-considerations-part-1?language=en_US))_
 
 # Демистификация сбросов: синхронные, асинхронные и другие соображения по проектированию... Часть 1
 ## Вступление
