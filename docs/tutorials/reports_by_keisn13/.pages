@@ -1,0 +1,5 @@
+nav:
+  - part1_report_clocks.md
+  - part2_report_clock_networks.md
+  - part3_report_clock_interaction.md
+title: "Отчеты Vivado"

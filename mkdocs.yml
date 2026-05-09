@@ -4,9 +4,10 @@ theme:
   name: material
   features:
     - navigation.tabs        # верхнее меню
-    - navigation.sections    # группировка в sidebar
+#    - navigation.sections    # группировка в sidebar
     - navigation.top         # кнопка "наверх"
  #   - navigation.instant         # кнопка "наверх"
+    - navigation.prune
     - search.highlight
     - content.code.copy
     - header.autohide

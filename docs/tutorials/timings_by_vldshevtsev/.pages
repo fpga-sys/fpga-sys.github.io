@@ -1,0 +1,7 @@
+nav:
+  - timings1_intro.md
+  - timings2_input_delay.md
+  - timings2_output_delay.md
+  - timings3_source_input_delay.md
+  # ...
+title: "Статический тайминг-анализ"   # красивый заголовок

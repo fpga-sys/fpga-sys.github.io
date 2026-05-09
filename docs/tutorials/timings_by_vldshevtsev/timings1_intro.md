@@ -1,5 +1,5 @@
 ---
-title: Основы статического временного анализа. Часть 1
+title: Часть 1. Period Constraint
 date: 2021-07-29 
 categories:
   - Timings
