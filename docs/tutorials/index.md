@@ -60,4 +60,12 @@ hide:
 
     [К `report_clocks`](reports_by_keisn13/part1_report_clocks.md)
 
+-   **Microblaze**
+
+    ---
+
+    Основы работы с Microblaze: от HW к SW.
+
+    [К первой части](microblaze_by_keisn13/part1_mcs.md)
+
 </div>

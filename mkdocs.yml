@@ -22,6 +22,15 @@ plugins:
   - search
   - awesome-pages
   - blogging:
+      categories:
+        - name: Tutorials
+          dirs:
+            - tutorials
+          size: 2
+        - name: Articles
+          dirs:
+            - articles
+          size: 2
       dirs:
         - tutorials
         - articles
