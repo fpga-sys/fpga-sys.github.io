@@ -161,6 +161,6 @@ exec xsc \<Абсолютный путь к файлу>\function1.c \<Абсол
 <div id="telegram-comments"></div>
 
 <script async src="https://telegram.org/js/telegram-widget.js?22"
-        data-telegram-discussion="fpgasystems_events/3801"
+        data-telegram-discussion="fpgasystems_events/3802"
         data-comments-limit="20">
 </script>
