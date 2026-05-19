@@ -23,7 +23,7 @@ plugins:
   - search
   - awesome-pages
   - blogging:
-      tags:
+      categories:
         - name: Tutorials
           dirs:
             - tutorials
