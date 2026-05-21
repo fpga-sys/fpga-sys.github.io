@@ -35,7 +35,7 @@ esynr3z.github.io/2021-09-03-corsair
 Хотелось бы, чтобы как можно больше людей узнали о проекте и начали автоматизировать процессы генерации в своих разработках. А может быть даже стали помогать в развитии проекта!
 
 Репозиторий:
-github.com/esynr3z/corsair
+[github.com/esynr3z/corsair](github.com/esynr3z/corsair)
 
 Документация:
-corsair.readthedocs.io
+[corsair.readthedocs.io](corsair.readthedocs.io)
