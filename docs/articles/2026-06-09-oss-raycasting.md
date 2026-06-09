@@ -522,3 +522,11 @@ Gowin в настоящее время в статусе experimental.
 
 Подводя итог проведенной работы, хотел бы ответить на вопрос: имеет ли смысл
 реализовывать алгоритм рейкастинга на аппаратном уровне? Нет.
+
+
+<div id="telegram-comments"></div>
+
+<script async src="https://telegram.org/js/telegram-widget.js?22"
+        data-telegram-discussion="fpgasystems_events/3822"
+        data-comments-limit="20">
+</script>
