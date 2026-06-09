@@ -527,6 +527,6 @@ Gowin в настоящее время в статусе experimental.
 <div id="telegram-comments"></div>
 
 <script async src="https://telegram.org/js/telegram-widget.js?22"
-        data-telegram-discussion="fpgasystems_events/3822"
+        data-telegram-discussion="fpgasystems_events/3823"
         data-comments-limit="20">
 </script>
