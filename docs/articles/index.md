@@ -11,6 +11,17 @@ date: 2026-05-01
 
 <div class="grid cards" markdown>
 
+-   **Расширение Solobit CheckMate**
+
+    ---
+
+    16 июня 2026 —
+
+    Команда DocsTech & Solobit подготовила плагин для VSCode тем, кто хочет попробовать новый формат обучения HDL.
+
+    [Читать](2026-06-16-solobit-checkmate.md)
+
+
 -   **Псевдо-3D на FPGA в стиле Wolfenstein 3D**
 
     ---
