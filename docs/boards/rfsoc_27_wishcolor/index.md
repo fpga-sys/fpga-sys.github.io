@@ -11,7 +11,7 @@ tags:
 
 # Отладочная плата RFSoC ZU27DR Wishcolor 
 
-![board_phbto](./rfsoc27_top.jpg)
+![board_phbto](./image.jpg)
 
 ## О плате
 

@@ -61,3 +61,5 @@ extra_javascript:
 extra_css:
     - https://unpkg.com/tabulator-tables@6.4.0/dist/css/tabulator.min.css
     - stylesheets/extra.css
+hooks:
+    - ./docs/hooks/boards.py

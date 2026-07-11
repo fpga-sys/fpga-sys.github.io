@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Microphase z7-Lite",
+    "fpga_vendor": "Xilinx",
+    "fpga_vendor_details": "",
+    "fpga_family": "Zynq7000",
+    "programmer": true,
+    "ddr_sdram": true,
+    "uart": true,
+    "ethernet": true,
+    "video": [
+      "HDMI"
+    ],
+    "usb": [
+      "USB2.0"
+    ],
+    "sd_card": [
+      "SD-card"
+    ],
+    "gpio_pmod": true,
+    "shops": [
+      {
+        "name": "AliExpress",
+        "url": "https://aliexpress.ru/item/1005005099614242.html"
+      }
+    ],
+    "page": "/boards/microphase-z7-lite/",
+    "image": "/boards/microphase-z7-lite/image.jpg",
+    "_source": "boards/microphase-z7-lite/board.json"
+  },
+  {
+    "name": "RK-XCKU5P-F",
+    "image": "/boards/rx-xcku5p/image.jpg",
+    "page": "/boards/rx-xcku5p/",
+    "fpga_vendor": "Xilinx",
+    "fpga_vendor_details": "",
+    "fpga_family": "UltraScale",
+    "programmer": true,
+    "ddr_sdram": true,
+    "uart": true,
+    "ethernet": true,
+    "video": [
+      "HDMI"
+    ],
+    "usb": [
+      "USB2.0"
+    ],
+    "sd_card": [
+      "SD-card"
+    ],
+    "gpio_pmod": true,
+    "shops": [
+      {
+        "name": "Aliexpress",
+        "url": "https://aliexpress.ru/item/1005009241509939.html"
+      }
+    ],
+    "_source": "boards/rx-xcku5p/board.json"
+  },
+  {
+    "name": "TQTT KU5P",
+    "image": "/boards/tqtt_ku5p/image.jpg",
+    "page": "/boards/tqtt_ku5p/",
+    "fpga_vendor": "Xilinx",
+    "fpga_vendor_details": "",
+    "fpga_family": "UltraScale",
+    "programmer": true,
+    "ddr_sdram": true,
+    "uart": true,
+    "ethernet": true,
+    "video": [
+      "HDMI"
+    ],
+    "usb": [
+      "USB2.0"
+    ],
+    "sd_card": [
+      "SD-card"
+    ],
+    "gpio_pmod": true,
+    "shops": [
+      {
+        "name": "AliExpress",
+        "url": "https://aliexpress.ru/item/1005010459190101.html?"
+      }
+    ],
+    "_source": "boards/tqtt_ku5p/board.json"
+  },
+  {
+    "name": "Wishcolor RFSoC 27DR",
+    "image": "/boards/rfsoc_27_wishcolor/image.jpg",
+    "page": "/boards/rfsoc_27_wishcolor/",
+    "fpga_vendor": "Xilinx",
+    "fpga_vendor_details": "",
+    "fpga_family": "RFSoC",
+    "programmer": true,
+    "ddr_sdram": true,
+    "uart": true,
+    "ethernet": true,
+    "video": [
+      "HDMI"
+    ],
+    "usb": [
+      "USB2.0"
+    ],
+    "sd_card": [
+      "SD-card"
+    ],
+    "gpio_pmod": true,
+    "shops": [
+      {
+        "name": "AliExpress",
+        "url": "https://aliexpress.ru/item/1005012007913166.html"
+      }
+    ],
+    "_source": "boards/rfsoc_27_wishcolor/board.json"
+  }
+]

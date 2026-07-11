@@ -1,0 +1,32 @@
+{
+    "name": "Microphase z7-Lite", 
+    "fpga_vendor": "Xilinx",
+    "fpga_vendor_details": "",
+    "fpga_family": "Zynq7000",
+
+    "programmer": true,
+    "ddr_sdram": true,
+    "uart": true,
+    "ethernet": true,
+
+    "video": [
+      "HDMI"
+    ],
+
+    "usb": [
+      "USB2.0"
+    ],
+
+    "sd_card": [
+      "SD-card"
+    ],
+
+    "gpio_pmod": true,
+
+    "shops": [
+      {
+        "name": "AliExpress",
+        "url": "https://aliexpress.ru/item/1005005099614242.html"
+      }
+    ]
+  }

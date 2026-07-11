@@ -1,0 +1,34 @@
+{
+    "name": "TQTT KU5P", 
+    "image": "tqtt_ku5p/tqtt-ku5p_top.jpg",
+    "page": "tqtt_ku5p/tqtt_ku5p",
+    "fpga_vendor": "Xilinx",
+    "fpga_vendor_details": "",
+    "fpga_family": "UltraScale",
+
+    "programmer": true,
+    "ddr_sdram": true,
+    "uart": true,
+    "ethernet": true,
+
+    "video": [
+      "HDMI"
+    ],
+
+    "usb": [
+      "USB2.0"
+    ],
+
+    "sd_card": [
+      "SD-card"
+    ],
+
+    "gpio_pmod": true,
+
+    "shops": [
+      {
+        "name": "AliExpress",
+        "url": "https://aliexpress.ru/item/1005010459190101.html?"
+      }
+    ]
+  }

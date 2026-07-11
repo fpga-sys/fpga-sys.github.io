@@ -341,7 +341,7 @@
 
     const dataSource =
       tableElement.dataset.source ||
-      "boards.json";
+      "/assets/data/boards.json";
 
     const table = new Tabulator(tableElement, {
       ajaxURL: dataSource,

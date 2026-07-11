@@ -1,0 +1,34 @@
+{
+    "name": "RK-XCKU5P-F", 
+    "image": "rx-xcku5p/rk-xcku5p_top.jpg",
+    "page": "rx-xcku5p/rx-xcku5p",
+    "fpga_vendor": "Xilinx",
+    "fpga_vendor_details": "",
+    "fpga_family": "UltraScale",
+
+    "programmer": true,
+    "ddr_sdram": true,
+    "uart": true,
+    "ethernet": true,
+
+    "video": [
+      "HDMI"
+    ],
+
+    "usb": [
+      "USB2.0"
+    ],
+
+    "sd_card": [
+      "SD-card"
+    ],
+
+    "gpio_pmod": true,
+
+    "shops": [
+      {
+        "name": "Aliexpress",
+        "url": "https://aliexpress.ru/item/1005009241509939.html"
+      }
+    ]
+  }

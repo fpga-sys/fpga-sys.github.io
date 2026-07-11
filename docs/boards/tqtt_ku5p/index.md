@@ -10,6 +10,6 @@ tags:
 
 # Отладочная плата RFSoC ZU27DR Wishcolor 
 
-![board_phbto](./tqtt-ku5p_top.jpg)
+![board_phbto](./image.jpg)
 
 ## О плате
