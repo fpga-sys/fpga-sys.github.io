@@ -56,3 +56,8 @@ markdown_extensions:
 extra_javascript:
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/board-table.js
+  - https://unpkg.com/tabulator-tables@6.3.1/dist/js/tabulator.min.js
+extra_css:
+    - https://unpkg.com/tabulator-tables@6.4.0/dist/css/tabulator.min.css
+    - stylesheets/extra.css

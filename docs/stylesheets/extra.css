@@ -1,0 +1,354 @@
+/* =========================================================
+   Общий контейнер таблицы
+   ========================================================= */
+
+#boards-table {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 1rem;
+  font-size: 0.72rem;
+}
+
+
+/* =========================================================
+   Панель поиска и фильтров
+   ========================================================= */
+
+.boards-toolbar {
+  display: grid;
+  grid-template-columns:
+    minmax(220px, 2fr)
+    minmax(150px, 1fr)
+    minmax(170px, 1fr)
+    auto;
+  gap: 0.75rem;
+  align-items: end;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.boards-toolbar__field {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 0.25rem;
+}
+
+.boards-toolbar__field > span {
+  font-size: 0.72rem;
+  font-weight: 500;
+}
+
+.boards-toolbar input,
+.boards-toolbar select {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  height: 2.25rem;
+  padding: 0.35rem 0.5rem;
+
+  font: inherit;
+  color: var(--md-typeset-color);
+
+  background-color: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.15rem;
+}
+
+.boards-toolbar input:focus,
+.boards-toolbar select:focus {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 1px;
+}
+
+.boards-toolbar__reset {
+  min-height: 2.25rem;
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   Основная таблица Tabulator
+   ========================================================= */
+
+#boards-table.tabulator {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background-color: var(--md-default-bg-color);
+  color: var(--md-typeset-color);
+}
+
+#boards-table .tabulator-header {
+  color: var(--md-typeset-color);
+  background-color: var(--md-default-bg-color);
+  border-bottom:
+    1px solid var(--md-default-fg-color--lightest);
+}
+
+#boards-table .tabulator-header
+.tabulator-col {
+  background-color:
+    var(--md-code-bg-color);
+  border-right:
+    1px solid var(--md-default-fg-color--lightest);
+}
+
+#boards-table .tabulator-header
+.tabulator-col:last-child {
+  border-right: 0;
+}
+
+#boards-table .tabulator-col-title {
+  white-space: normal;
+  line-height: 1.2;
+}
+
+#boards-table .tabulator-col-content {
+  padding: 0.4rem 0.3rem;
+}
+
+#boards-table .tabulator-header-filter {
+  margin-top: 0.3rem;
+}
+
+#boards-table .tabulator-header-filter input,
+#boards-table .tabulator-header-filter select {
+  width: 100%;
+  min-width: 0;
+  height: 1.75rem;
+  padding: 0.15rem 0.25rem;
+
+  color: var(--md-typeset-color);
+  background-color: var(--md-default-bg-color);
+
+  border:
+    1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.1rem;
+}
+
+#boards-table .tabulator-row {
+  min-height: 2rem;
+  color: var(--md-typeset-color);
+  background-color: var(--md-default-bg-color);
+  border-bottom:
+    1px solid var(--md-default-fg-color--lightest);
+}
+
+#boards-table .tabulator-row:nth-child(even) {
+  background-color:
+    var(--md-default-fg-color--lightest);
+}
+
+#boards-table .tabulator-row:hover {
+  background-color:
+    var(--md-accent-fg-color--transparent);
+}
+
+#boards-table .tabulator-cell {
+  padding: 0.35rem 0.3rem;
+  border-right:
+    1px solid var(--md-default-fg-color--lightest);
+}
+
+#boards-table .tabulator-cell:last-child {
+  border-right: 0;
+}
+
+#boards-table .tabulator-cell a {
+  color: var(--md-accent-fg-color);
+  text-decoration: none;
+}
+
+#boards-table .tabulator-cell a:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================================================
+   Кнопка раскрытия скрытых столбцов
+   ========================================================= */
+
+#boards-table
+.tabulator-responsive-collapse-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 1.35rem;
+  height: 1.35rem;
+
+  padding: 0;
+  cursor: pointer;
+
+  font-size: 0.9rem;
+  line-height: 1;
+
+  color: var(--md-accent-fg-color);
+  background: transparent;
+
+  border:
+    1px solid var(--md-accent-fg-color);
+  border-radius: 50%;
+}
+
+
+/* =========================================================
+   Раскрытая область скрытых столбцов
+   ========================================================= */
+
+#boards-table
+.tabulator-responsive-collapse {
+  padding: 0.65rem 0.75rem;
+  background-color: var(--md-code-bg-color);
+  border-top:
+    1px solid var(--md-default-fg-color--lightest);
+}
+
+#boards-table
+.tabulator-responsive-collapse table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  font-size: 0.7rem;
+}
+
+#boards-table
+.tabulator-responsive-collapse table tr {
+  border-bottom:
+    1px solid var(--md-default-fg-color--lightest);
+}
+
+#boards-table
+.tabulator-responsive-collapse table tr:last-child {
+  border-bottom: 0;
+}
+
+#boards-table
+.tabulator-responsive-collapse table td {
+  padding: 0.3rem 0.4rem;
+  vertical-align: top;
+}
+
+#boards-table
+.tabulator-responsive-collapse table td:first-child {
+  width: 40%;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   Ссылки на магазины
+   ========================================================= */
+
+.boards-shop-links {
+  display: inline;
+  overflow-wrap: anywhere;
+}
+
+
+/* =========================================================
+   Пагинация
+   ========================================================= */
+
+#boards-table .tabulator-footer {
+  color: var(--md-typeset-color);
+  background-color: var(--md-code-bg-color);
+  border-top:
+    1px solid var(--md-default-fg-color--lightest);
+}
+
+#boards-table .tabulator-footer
+.tabulator-page {
+  color: var(--md-typeset-color);
+  background-color: var(--md-default-bg-color);
+  border:
+    1px solid var(--md-default-fg-color--lightest);
+}
+
+#boards-table .tabulator-footer
+.tabulator-page.active {
+  color: var(--md-primary-bg-color);
+  background-color: var(--md-primary-fg-color);
+}
+
+
+/* =========================================================
+   Планшеты
+   ========================================================= */
+
+@media screen and (max-width: 900px) {
+  .boards-toolbar {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .boards-toolbar__field--search {
+    grid-column: 1 / -1;
+  }
+
+  .boards-toolbar__reset {
+    width: 100%;
+  }
+
+  #boards-table {
+    font-size: 0.68rem;
+  }
+}
+
+
+/* =========================================================
+   Смартфоны
+   ========================================================= */
+
+@media screen and (max-width: 600px) {
+  .boards-toolbar {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .boards-toolbar__field,
+  .boards-toolbar__reset {
+    width: 100%;
+  }
+
+  #boards-table {
+    font-size: 0.64rem;
+  }
+
+  #boards-table .tabulator-col-content {
+    padding: 0.3rem 0.2rem;
+  }
+
+  #boards-table .tabulator-cell {
+    padding: 0.3rem 0.2rem;
+  }
+
+  #boards-table
+  .tabulator-responsive-collapse table td:first-child {
+    width: 48%;
+  }
+}
+.boards-image-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boards-table-image {
+  display: block;
+  width: 88px;
+  height: 58px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 0.2rem;
+  background-color: #fff;
+}
+
+.boards-table-image:hover {
+  transform: scale(1.05);
+}
+
+.boards-table-image {
+  transition: transform 0.15s ease;
+}
