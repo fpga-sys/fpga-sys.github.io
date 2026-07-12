@@ -58,6 +58,31 @@
     "_source": "boards/rx-xcku5p/board.json"
   },
   {
+    "name": "SiPeed Tang 25K",
+    "image": "",
+    "page": "/boards/sipeed-tang-25k/",
+    "fpga_vendor": "Gowin",
+    "fpga_vendor_details": "",
+    "fpga_family": "GW5A",
+    "programmer": true,
+    "ddr_sdram": false,
+    "uart": true,
+    "ethernet": false,
+    "video": [],
+    "usb": [
+      "USB2.0"
+    ],
+    "sd_card": [],
+    "gpio_pmod": true,
+    "shops": [
+      {
+        "name": "AliExpress",
+        "url": "https://aliexpress.ru/item/1005004824395538.html"
+      }
+    ],
+    "_source": "boards/sipeed-tang-25k/board.json"
+  },
+  {
     "name": "TQTT KU5P",
     "image": "/boards/tqtt_ku5p/image.jpg",
     "page": "/boards/tqtt_ku5p/",
@@ -87,6 +112,33 @@
     "_source": "boards/tqtt_ku5p/board.json"
   },
   {
+    "name": "TRX Duo",
+    "image": "",
+    "page": "/boards/trx-duo/",
+    "fpga_vendor": "Xilinx",
+    "fpga_vendor_details": "",
+    "fpga_family": "Zynq7000",
+    "programmer": true,
+    "ddr_sdram": true,
+    "uart": true,
+    "ethernet": true,
+    "video": [],
+    "usb": [
+      "USB2.0"
+    ],
+    "sd_card": [
+      "SD-card"
+    ],
+    "gpio_pmod": true,
+    "shops": [
+      {
+        "name": "AliExpress",
+        "url": "https://aliexpress.ru/item/1005004824395538.html"
+      }
+    ],
+    "_source": "boards/trx-duo/board.json"
+  },
+  {
     "name": "Wishcolor RFSoC 27DR",
     "image": "/boards/rfsoc_27_wishcolor/image.jpg",
     "page": "/boards/rfsoc_27_wishcolor/",
@@ -101,7 +153,7 @@
       "HDMI"
     ],
     "usb": [
-      "USB2.0"
+      "USB3.0"
     ],
     "sd_card": [
       "SD-card"
