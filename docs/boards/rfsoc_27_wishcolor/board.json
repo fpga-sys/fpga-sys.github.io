@@ -12,7 +12,7 @@
     "ethernet": true,
 
     "video": [
-      "HDMI"
+      "DP"
     ],
 
     "usb": [

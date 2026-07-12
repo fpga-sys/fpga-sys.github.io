@@ -25,8 +25,9 @@
       }
     ],
     "page": "/boards/microphase-z7-lite/",
+    "page_external": false,
     "image": "/boards/microphase-z7-lite/image.jpg",
-    "_source": "boards/microphase-z7-lite/board.json"
+    "image_external": false
   },
   {
     "name": "RK-XCKU5P-F",
@@ -55,12 +56,11 @@
         "url": "https://aliexpress.ru/item/1005009241509939.html"
       }
     ],
-    "_source": "boards/rx-xcku5p/board.json"
+    "page_external": false,
+    "image_external": false
   },
   {
     "name": "SiPeed Tang 25K",
-    "image": "",
-    "page": "/boards/sipeed-tang-25k/",
     "fpga_vendor": "Gowin",
     "fpga_vendor_details": "",
     "fpga_family": "GW5A",
@@ -80,7 +80,10 @@
         "url": "https://aliexpress.ru/item/1005004824395538.html"
       }
     ],
-    "_source": "boards/sipeed-tang-25k/board.json"
+    "page": "https://wiki.sipeed.com/hardware/en/tang/tang-primer-25k/primer-25k.html#how-to-update-the-firmware-for-the-onboard-debugger",
+    "page_external": true,
+    "image": "https://wiki.sipeed.com/hardware/en/tang/tang-primer-25k/assets/25k_dock_45.jpg",
+    "image_external": true
   },
   {
     "name": "TQTT KU5P",
@@ -109,16 +112,16 @@
         "url": "https://aliexpress.ru/item/1005010459190101.html?"
       }
     ],
-    "_source": "boards/tqtt_ku5p/board.json"
+    "page_external": false,
+    "image_external": false
   },
   {
     "name": "TRX Duo",
-    "image": "",
     "page": "/boards/trx-duo/",
     "fpga_vendor": "Xilinx",
     "fpga_vendor_details": "",
     "fpga_family": "Zynq7000",
-    "programmer": true,
+    "programmer": false,
     "ddr_sdram": true,
     "uart": true,
     "ethernet": true,
@@ -136,7 +139,39 @@
         "url": "https://aliexpress.ru/item/1005004824395538.html"
       }
     ],
-    "_source": "boards/trx-duo/board.json"
+    "page_external": false,
+    "image": "https://www.sdrstore.eu/images/detailed/13/14256ea948.webp",
+    "image_external": true
+  },
+  {
+    "name": "TZT RK-ZYNQ7020-F",
+    "fpga_vendor": "Xilinx",
+    "fpga_vendor_details": "",
+    "fpga_family": "Zynq7000",
+    "programmer": true,
+    "ddr_sdram": true,
+    "uart": true,
+    "ethernet": true,
+    "video": [
+      "HDMI"
+    ],
+    "usb": [
+      "USB2.0"
+    ],
+    "sd_card": [
+      "micro-SD"
+    ],
+    "gpio_pmod": true,
+    "shops": [
+      {
+        "name": "AliExpress",
+        "url": "https://aliexpress.ru/item/1005004824395538.html"
+      }
+    ],
+    "page": "https://habr.com/ru/companies/beget/articles/1050026/",
+    "page_external": true,
+    "image": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/bc1/bc3/ff6/bc1bc3ff602bde5fd730c28e843c6f6f.png",
+    "image_external": true
   },
   {
     "name": "Wishcolor RFSoC 27DR",
@@ -150,7 +185,7 @@
     "uart": true,
     "ethernet": true,
     "video": [
-      "HDMI"
+      "DP"
     ],
     "usb": [
       "USB3.0"
@@ -165,6 +200,7 @@
         "url": "https://aliexpress.ru/item/1005012007913166.html"
       }
     ],
-    "_source": "boards/rfsoc_27_wishcolor/board.json"
+    "page_external": false,
+    "image_external": false
   }
 ]

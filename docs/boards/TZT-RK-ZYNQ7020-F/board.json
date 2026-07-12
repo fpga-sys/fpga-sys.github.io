@@ -1,18 +1,18 @@
 {
-    "name": "TRX Duo", 
-    "external_image": "https://www.sdrstore.eu/images/detailed/13/14256ea948.webp",
-    "page": "trx-duo/index",
+    "name": "TZT RK-ZYNQ7020-F", 
+    "external_image": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/bc1/bc3/ff6/bc1bc3ff602bde5fd730c28e843c6f6f.png",
+    "external_page": "https://habr.com/ru/companies/beget/articles/1050026/",
     "fpga_vendor": "Xilinx",
     "fpga_vendor_details": "",
     "fpga_family": "Zynq7000",
 
-    "programmer": false,
+    "programmer": true,
     "ddr_sdram": true,
     "uart": true,
     "ethernet": true,
 
     "video": [
-      
+      "HDMI"
     ],
 
     "usb": [
@@ -20,7 +20,7 @@
     ],
 
     "sd_card": [
-      "SD-card"
+     "micro-SD"
     ],
 
     "gpio_pmod": true,

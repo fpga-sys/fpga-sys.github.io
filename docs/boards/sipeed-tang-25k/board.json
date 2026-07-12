@@ -1,7 +1,7 @@
 {
     "name": "SiPeed Tang 25K", 
-    "image": "tang_25k_top.jpg",
-    "page": "https://wiki.sipeed.com/hardware/en/tang/tang-primer-25k/primer-25k.html#how-to-update-the-firmware-for-the-onboard-debugger",
+    "external_image": "https://wiki.sipeed.com/hardware/en/tang/tang-primer-25k/assets/25k_dock_45.jpg",
+    "external_page": "https://wiki.sipeed.com/hardware/en/tang/tang-primer-25k/primer-25k.html#how-to-update-the-firmware-for-the-onboard-debugger",
     "fpga_vendor": "Gowin",
     "fpga_vendor_details": "",
     "fpga_family": "GW5A",

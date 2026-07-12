@@ -57,36 +57,70 @@ def load_board(board_file: Path, boards_root: Path) -> dict[str, Any]:
     board_directory = board_file.parent
     slug = board_directory.relative_to(boards_root).as_posix()
 
-    page_file = board_directory / BOARD_PAGE_FILENAME
+    external_page = board.pop("external_page", None)
+    external_image = board.pop("external_image", None)
 
-    if not page_file.exists():
-        raise RuntimeError(
-            f"Для платы {board['name']} отсутствует страница {page_file}"
-        )
+    if external_page:
+        if not isinstance(external_page, str):
+            raise RuntimeError(
+                f"Поле external_page в {board_file} должно быть строкой."
+            )
 
-    # Эти поля генерируются автоматически.
-    board["page"] = f"/boards/{slug}/"
+        if not external_page.startswith(("https://", "http://")):
+            raise RuntimeError(
+                f"Поле external_page в {board_file} должно содержать "
+                f"полный URL с http:// или https://"
+            )
 
-    image_path = next(
-        (
-            board_directory / image_name
-            for image_name in SUPPORTED_IMAGES
-            if (board_directory / image_name).exists()
-        ),
-        None,
-    )
+        board["page"] = external_page
+        board["page_external"] = True
 
-    if image_path is not None:
-        board["image"] = (
-            f"/boards/{slug}/{image_path.name}"
-        )
     else:
-        board["image"] = ""
+        page_file = board_directory / BOARD_PAGE_FILENAME
 
-    # Полезно для диагностики, при необходимости поле можно удалить.
-    board["_source"] = (
-        board_file.relative_to(boards_root.parent).as_posix()
-    )
+        if not page_file.exists():
+            raise RuntimeError(
+                f"Для платы {board['name']} отсутствует страница "
+                f"{page_file}. Либо создайте index.md, либо укажите "
+                f"external_page в {board_file}."
+            )
+
+        board["page"] = f"/boards/{slug}/"
+        board["page_external"] = False
+
+    if external_image:
+        if not isinstance(external_image, str):
+            raise RuntimeError(
+                f"Поле external_image в {board_file} должно быть строкой."
+            )
+
+        if not external_image.startswith(("https://", "http://")):
+            raise RuntimeError(
+                f"Поле external_image в {board_file} должно содержать "
+                f"полный URL с http:// или https://"
+            )
+
+        board["image"] = external_image
+        board["image_external"] = True
+
+    else:
+        image_path = next(
+            (
+                board_directory / image_name
+                for image_name in SUPPORTED_IMAGES
+                if (board_directory / image_name).exists()
+            ),
+            None,
+        )
+
+        if image_path is not None:
+            board["image"] = (
+                f"/boards/{slug}/{image_path.name}"
+            )
+        else:
+            board["image"] = ""
+
+        board["image_external"] = False
 
     return board
 
