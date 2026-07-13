@@ -26,15 +26,27 @@ tags:
 
 ### PS периферия
 
-- USB type-C UART
+- USB type-C UART (CH340)
 - microSD card slot
 - 4Gbit DDR3 MT41J256M16 RE-125
 - USB Host 3320C-EZK
 - Winbond 16MB QSPI Flash W25Q128JVSIQ
+- 1 Key button  ( + PS reset button)
+- 1 green LED
 
 ### PL периферия
+- JTAG (FT232H)
+- HDMI Output 
+- Ethernet RTL8201F 10/100 с доступными MDC/MDIO
+- PL CLK 50 MHz (pin N18)
+- 2 Buttons
+- 2 green LEDs
+- 2 GPIO 2x20 (3.3V)
 
-- HDMI Output (PL)
-- Ethernet RTL8201F (PL)
-- Leds and Buttons
-- GPIO 2x20
+Так же на выход `FPGA_DONE` подцеплен зеленый светодиод, а красный свтодиод подцеплен на шины `VCC_DDR3` и `VCC_3V3`
+
+### Питание
+
+Плата питается от USB, при этом как от UART так и от отладочного разъема
+
+## 
