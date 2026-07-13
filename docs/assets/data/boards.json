@@ -86,6 +86,36 @@
     "image_external": true
   },
   {
+    "name": "Sipeed Tang Mega 138K Pro",
+    "fpga_vendor": "Gowin",
+    "fpga_vendor_details": "",
+    "fpga_family": "GW5AST",
+    "programmer": true,
+    "ddr_sdram": true,
+    "uart": true,
+    "ethernet": true,
+    "video": [
+      "DVI"
+    ],
+    "usb": [
+      "USB2.0"
+    ],
+    "sd_card": [
+      "SD-card"
+    ],
+    "gpio_pmod": true,
+    "shops": [
+      {
+        "name": "AliExpress",
+        "url": "https://aliexpress.ru/item/1005008645183368.html"
+      }
+    ],
+    "page": "https://wiki.sipeed.com/hardware/en/tang/tang-mega-138k/mega-138k-pro.html",
+    "page_external": true,
+    "image": "https://wiki.sipeed.com/hardware/en/tang/tang-mega-138k/assets/mega_138k_pro_top.png",
+    "image_external": true
+  },
+  {
     "name": "TQTT KU5P",
     "image": "/boards/tqtt_ku5p/image.jpg",
     "page": "/boards/tqtt_ku5p/",

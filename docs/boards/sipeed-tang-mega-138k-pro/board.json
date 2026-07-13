@@ -1,7 +1,7 @@
 {
     "name": "Sipeed Tang Mega 138K Pro", 
-    "extern_image": "https://wiki.sipeed.com/hardware/en/tang/tang-mega-138k/assets/mega_138k_pro_top.png",
-    "extern_page": "https://wiki.sipeed.com/hardware/en/tang/tang-mega-138k/mega-138k-pro.html",
+    "external_image": "https://wiki.sipeed.com/hardware/en/tang/tang-mega-138k/assets/mega_138k_pro_top.png",
+    "external_page": "https://wiki.sipeed.com/hardware/en/tang/tang-mega-138k/mega-138k-pro.html",
     "fpga_vendor": "Gowin",
     "fpga_vendor_details": "",
     "fpga_family": "GW5AST",
