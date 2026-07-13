@@ -1,0 +1,34 @@
+{
+    "name": "OMDAZZ CycloneIV EP4CE6", 
+    "external_image": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/5ec/f2f/7f4/5ecf2f7f47e1236fcece43bc7ea5ca5d.png",
+    "external_page": "https://habr.com/ru/articles/749298/",
+    "fpga_vendor": "Altera",
+    "fpga_vendor_details": "",
+    "fpga_family": "Cyclone",
+
+    "programmer": false,
+    "ddr_sdram": true,
+    "uart": true,
+    "ethernet": true,
+
+    "video": [
+      "VGA"
+    ],
+
+    "usb": [
+      
+    ],
+
+    "sd_card": [
+  
+    ],
+
+    "gpio_pmod": true,
+
+    "shops": [
+      {
+        "name": "AliExpress",
+        "url": "https://aliexpress.ru/item/1005004865950922.html"
+      }
+    ]
+  }

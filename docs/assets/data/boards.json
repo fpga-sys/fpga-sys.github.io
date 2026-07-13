@@ -1,5 +1,36 @@
 [
   {
+    "name": "ALINX AXU15EGB",
+    "fpga_vendor": "Xilinx",
+    "fpga_vendor_details": "",
+    "fpga_family": "MPSoC",
+    "programmer": false,
+    "ddr_sdram": true,
+    "uart": true,
+    "ethernet": true,
+    "video": [
+      "mini-DP"
+    ],
+    "usb": [
+      "USB2.0",
+      "USB3.0"
+    ],
+    "sd_card": [
+      "micro-SD"
+    ],
+    "gpio_pmod": true,
+    "shops": [
+      {
+        "name": "AliExpress",
+        "url": "https://aliexpress.ru/item/1005005035623382.html"
+      }
+    ],
+    "page": "https://habr.com/ru/companies/timeweb/articles/819029/",
+    "page_external": true,
+    "image": "https://habrastorage.org/r/w1560/webt/rd/r5/oc/rdr5ocma3rftuybyieiriirxb18.png",
+    "image_external": true
+  },
+  {
     "name": "Microphase z7-Lite",
     "fpga_vendor": "Xilinx",
     "fpga_vendor_details": "",
@@ -28,6 +59,32 @@
     "page_external": false,
     "image": "/boards/microphase-z7-lite/image.jpg",
     "image_external": false
+  },
+  {
+    "name": "OMDAZZ CycloneIV EP4CE6",
+    "fpga_vendor": "Altera",
+    "fpga_vendor_details": "",
+    "fpga_family": "Cyclone",
+    "programmer": false,
+    "ddr_sdram": true,
+    "uart": true,
+    "ethernet": true,
+    "video": [
+      "VGA"
+    ],
+    "usb": [],
+    "sd_card": [],
+    "gpio_pmod": true,
+    "shops": [
+      {
+        "name": "AliExpress",
+        "url": "https://aliexpress.ru/item/1005005035623382.html"
+      }
+    ],
+    "page": "https://habr.com/ru/articles/749298/",
+    "page_external": true,
+    "image": "https://habrastorage.org/r/w1560/getpro/habr/upload_files/5ec/f2f/7f4/5ecf2f7f47e1236fcece43bc7ea5ca5d.png",
+    "image_external": true
   },
   {
     "name": "RK-XCKU5P-F",

@@ -1,0 +1,34 @@
+{
+    "name": "ALINX AXU15EGB", 
+    "external_image": "https://habrastorage.org/r/w1560/webt/rd/r5/oc/rdr5ocma3rftuybyieiriirxb18.png",
+    "external_page": "https://habr.com/ru/companies/timeweb/articles/819029/",
+    "fpga_vendor": "Xilinx",
+    "fpga_vendor_details": "",
+    "fpga_family": "MPSoC",
+
+    "programmer": false,
+    "ddr_sdram": true,
+    "uart": true,
+    "ethernet": true,
+
+    "video": [
+      "mini-DP"
+    ],
+
+    "usb": [
+      "USB2.0","USB3.0"
+    ],
+
+    "sd_card": [
+     "micro-SD"
+    ],
+
+    "gpio_pmod": true,
+
+    "shops": [
+      {
+        "name": "AliExpress",
+        "url": "https://aliexpress.ru/item/1005005035623382.html"
+      }
+    ]
+  }
