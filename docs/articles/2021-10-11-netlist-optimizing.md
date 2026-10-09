@@ -1,6 +1,6 @@
 ---
 title: Стратегии оптимизации HDL-кода и синтезатора нетлиста для FPGA
-date: 2021-10-11 19:51
+date: 2021-10-11
 author: alinkapirate
 tags:
   - timings
