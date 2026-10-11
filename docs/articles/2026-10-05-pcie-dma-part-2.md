@@ -1,7 +1,7 @@
 ---
 title: Разработка 8-канального DMA для PCIe своими руками - часть 2
 type: article
-date: 2026-10-05
+date: 2026-10-11
 author: stargazer
 tags:
   - article
